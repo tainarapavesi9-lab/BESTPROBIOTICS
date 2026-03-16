@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- ESTRATÉGIA SEO ATUALIZADA -->
-    <title>Bioma® | The Metabolic Breakthrough for a Flatter Stomach</title>
-    <meta name="description" content="Stop fighting your metabolism. Discover the 3-in-1 gut solution that targets the root cause of bloating and slow energy. Limited US supply.">
+    <!-- ESTRATÉGIA SEO & CANONICAL -->
+    <title>Bioma® | The 2026 Metabolic Breakthrough for Gut Optimization</title>
+    <meta name="description" content="Stop fighting your internal biology. Discover the 3-in-1 precision gut solution engineered for metabolic support and energy. Limited supply.">
     <link rel="canonical" href="https://bestprobiotics.vercel.app/">
 
     <!-- FAVICON (Foto do Produto) -->
@@ -30,21 +30,18 @@
                     },
                     colors: {
                         brand: {
-                            50: '#fdfcf8',   // Cream background
-                            100: '#f3f1e9',
-                            500: '#1e4d3b',  // Forest Green
+                            50: '#fdfcf8',   // Cream
+                            500: '#1e4d3b',  // Forest Emerald
                             600: '#163a2c',
                             800: '#0d241b',
                             900: '#07150f',
-                            950: '#040b08',
                         },
                         gold: {
                             400: '#e5c07b',
                             500: '#d4af37', // Metallic Gold
-                            600: '#b8962e',
                         },
                         accent: {
-                            500: '#ff6b35', // High-contrast Orange for CTAs
+                            500: '#ff6b35', // High-Energy CTA
                         }
                     },
                     animation: {
@@ -71,171 +68,194 @@
         .text-gradient { background: linear-gradient(to right, #d4af37, #fdfcf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .reveal-on-scroll { opacity: 0; transform: translateY(20px); transition: all 0.7s ease-out; }
         .reveal-on-scroll.active { opacity: 1; transform: translateY(0); }
-        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .authority-btn { background: linear-gradient(135deg, #1e4d3b 0%, #07150f 100%); }
         .btn-shine { position: relative; overflow: hidden; }
-        .btn-shine::after { content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255,255,255,0.3), transparent); transform: rotate(45deg); transition: 0.5s; animation: shine 3s infinite; }
+        .btn-shine::after { content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent); transform: rotate(45deg); transition: 0.5s; animation: shine 4s infinite; }
         @keyframes shine { 0% { left: -100%; } 100% { left: 100%; } }
     </style>
 </head>
 
 <body class="font-sans antialiased">
 
-    <!-- TOP BAR DE URGÊNCIA -->
-    <div class="bg-gold-500 text-brand-950 py-1.5 px-4 z-[110] relative text-center text-[10px] md:text-xs font-extrabold uppercase tracking-widest">
-        Free Expedited Shipping Ends Tonight at Midnight EST
+    <!-- URGENCY BAR -->
+    <div class="bg-gold-500 text-brand-950 py-1.5 px-4 z-[110] relative text-center text-[10px] md:text-xs font-black uppercase tracking-widest">
+        Supply Alert: High Demand in the United States — Free Shipping Reserved
     </div>
 
-    <!-- NAVEGAÇÃO -->
-    <nav class="sticky top-0 bg-white/90 backdrop-blur-md py-4 z-[100] border-b border-brand-100">
+    <!-- STICKY HEADER -->
+    <nav class="sticky top-0 bg-white/95 backdrop-blur-md py-4 z-[100] border-b border-brand-100">
         <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <div class="font-serif font-black text-2xl tracking-tighter text-brand-500">BIOMA<span class="text-gold-500">®</span></div>
-            <div class="hidden md:flex space-x-8 text-[11px] font-bold text-brand-800 uppercase tracking-widest">
-                <a href="#why" class="hover:text-gold-600">The Science</a>
-                <a href="#results" class="hover:text-gold-600">Results</a>
-                <a href="#offer" class="hover:text-gold-600">Bundles</a>
-            </div>
-            <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="bg-brand-500 text-white px-6 py-2 rounded-full text-[11px] font-extrabold uppercase tracking-widest hover:bg-brand-900 transition-all">
-                Shop Now
+            <div class="font-serif font-black text-2xl tracking-tighter text-brand-500 uppercase">BIOMA<span class="text-gold-500">®</span></div>
+            <a href="#journey" class="bg-brand-500 text-white px-6 py-2 rounded-full text-[11px] font-extrabold uppercase tracking-widest hover:bg-brand-900 transition-all shadow-md">
+                Start Protocol
             </a>
         </div>
     </nav>
 
-    <!-- HERO SECTION (ESTILO AGRESSIVO) -->
-    <section class="relative hero-gradient pt-16 pb-24 lg:pt-32 lg:pb-40 overflow-hidden text-white">
-        <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
-            <svg viewBox="0 0 100 100" class="w-full h-full fill-white"><circle cx="100" cy="0" r="80" /></svg>
-        </div>
-
+    <!-- HERO SECTION -->
+    <section class="relative hero-gradient pt-16 pb-24 lg:pt-32 lg:pb-36 overflow-hidden text-white">
         <div class="max-w-7xl mx-auto px-4 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div class="text-center lg:text-left">
-                    <span class="inline-block bg-gold-500/20 text-gold-500 border border-gold-500/30 px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-6 opacity-0 animate-fade-in-up">2026 Metabolic Protocol</span>
+                    <span class="inline-block bg-gold-500/10 text-gold-500 border border-gold-500/20 px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-6 opacity-0 animate-fade-in-up">Precision Gut Reset</span>
                     
                     <h1 class="font-serif text-5xl sm:text-6xl lg:text-8xl font-black leading-[1.05] mb-8 opacity-0 animate-fade-in-up" style="animation-delay: 100ms">
-                        Your Gut Is The <span class="text-gradient">Missing Link</span> To Energy.
+                        Your Gut Is The <span class="text-gradient">Master Key</span> To Your Metabolism.
                     </h1>
 
-                    <p class="text-lg md:text-xl text-brand-100/80 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0 opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
-                        Stop treating the symptoms and start targeting the root. Bioma® isn't just a probiotic—it's a clinical-grade precision reset for your internal biological engine.
+                    <p class="text-lg md:text-xl text-brand-100/70 leading-relaxed mb-10 max-w-xl mx-auto lg:mx-0 opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
+                        Generic probiotics are dead on arrival. Bioma® is the clinical-grade 3-in-1 solution designed to sync your microbiome with your metabolic goals.
                     </p>
 
-                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start opacity-0 animate-fade-in-up" style="animation-delay: 300ms">
-                        <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="btn-shine w-full sm:w-auto px-10 py-5 bg-accent-500 text-white font-black text-lg rounded-2xl shadow-[0_20px_40px_rgba(255,107,53,0.3)] hover:scale-105 transition-all uppercase tracking-tight">
-                            Unlock My New Body
+                    <div class="opacity-0 animate-fade-in-up" style="animation-delay: 300ms">
+                        <a href="#journey" class="btn-shine inline-block w-full sm:w-auto px-12 py-5 bg-accent-500 text-white font-black text-xl rounded-2xl shadow-[0_20px_40px_rgba(255,107,53,0.3)] hover:scale-105 transition-all uppercase tracking-tight">
+                            Identify My Blocks
                         </a>
-                        <div class="flex items-center gap-2">
-                            <div class="flex -space-x-2">
-                                <div class="w-8 h-8 rounded-full border-2 border-brand-500 bg-brand-100 flex items-center justify-center text-[10px] font-bold text-brand-800">AM</div>
-                                <div class="w-8 h-8 rounded-full border-2 border-brand-500 bg-brand-100 flex items-center justify-center text-[10px] font-bold text-brand-800">TD</div>
-                                <div class="w-8 h-8 rounded-full border-2 border-brand-500 bg-brand-100 flex items-center justify-center text-[10px] font-bold text-brand-800">RK</div>
-                            </div>
-                            <span class="text-[11px] font-bold text-brand-200">JOIN 14,000+ THIS MONTH</span>
-                        </div>
+                        <p class="mt-4 text-[11px] font-bold text-brand-200 uppercase tracking-widest">Takes less than 30 seconds</p>
                     </div>
                 </div>
 
                 <div class="relative opacity-0 animate-fade-in-up" style="animation-delay: 400ms">
-                    <div class="relative z-20 animate-float drop-shadow-[0_50px_100px_rgba(0,0,0,0.5)]">
-                        <img src="images/bioma-bottle.webp" alt="Bioma Clinical Pack" class="max-h-[550px] mx-auto rounded-3xl" onerror="this.src='https://placehold.co/400x600/163a2c/ffffff?text=BIOMA+ELITE'">
+                    <div class="relative z-20 animate-float drop-shadow-[0_50px_100px_rgba(0,0,0,0.4)]">
+                        <img src="images/bioma-bottle.webp" alt="Bioma Clinical Bottle" class="max-h-[550px] mx-auto rounded-3xl" onerror="this.src='https://placehold.co/400x600/163a2c/ffffff?text=BIOMA+ELITE'">
                     </div>
-                    <!-- Glow effect -->
-                    <div class="absolute inset-0 bg-gold-500/20 blur-[120px] rounded-full z-10"></div>
+                    <div class="absolute inset-0 bg-gold-500/10 blur-[120px] rounded-full z-10"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION: THE PROBLEM (COPY AGRESSIVA) -->
+    <!-- SECTION: THE JOURNEY (ESCOLHA DE 2 CAMINHOS) -->
+    <section id="journey" class="py-24 bg-white reveal-on-scroll">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="font-serif text-4xl md:text-5xl font-black text-brand-500 mb-4">The Microbiome Protocol</h2>
+                <p class="text-gray-500 font-bold uppercase tracking-widest text-xs">Choose the entry path that fits your current needs</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- CAMINHO 1: O QUIZ (PESQUISA DE PRECISÃO) -->
+                <div class="group bg-brand-50 border-2 border-brand-100 p-10 rounded-[3rem] hover:border-gold-500 transition-all duration-500 hover:shadow-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-gold-500 transition-colors">
+                            <svg class="w-8 h-8 text-brand-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2" /></svg>
+                        </div>
+                        <h3 class="font-serif text-3xl font-black text-brand-950 mb-4 tracking-tight">Identification Quiz</h3>
+                        <p class="text-gray-600 mb-10 leading-relaxed">Stop guessing. Every body is different. Take the <b>Precision Assessment</b> to pinpoint your metabolic type and receive a tailored usage protocol.</p>
+                    </div>
+                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/?uid=4668" class="block w-full py-5 authority-btn text-white rounded-2xl font-black text-center uppercase tracking-widest shadow-lg hover:scale-[1.02] transition-transform">Start Precision Quiz</a>
+                </div>
+
+                <!-- CAMINHO 2: PEDIDO DIRETO (O FORMULÁRIO/OFFER) -->
+                <div class="group bg-brand-500 p-10 rounded-[3rem] border-2 border-brand-600 hover:border-gold-500 transition-all duration-500 hover:shadow-2xl relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute -top-4 -right-4 bg-gold-500 text-brand-950 px-8 py-8 rounded-full font-black text-[10px] uppercase tracking-widest rotate-12 shadow-md">Best Deal</div>
+                    <div>
+                        <div class="w-16 h-16 bg-brand-600 rounded-2xl flex items-center justify-center mb-8 border border-brand-400 group-hover:bg-gold-500 transition-colors">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+                        </div>
+                        <h3 class="font-serif text-3xl font-black text-white mb-4 tracking-tight">Direct Formula</h3>
+                        <p class="text-white/70 mb-10 leading-relaxed">Already know what you need? Secure your Bioma® supply immediately and lock in the <b>35% Discount</b>. Perfect for those ready to act today.</p>
+                    </div>
+                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="block w-full py-5 bg-white text-brand-950 rounded-2xl font-black text-center uppercase tracking-widest shadow-lg hover:scale-[1.02] transition-transform">Secure My Supply</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: WHY BIOMA (POINTS OF PAIN) -->
     <section id="why" class="py-24 bg-brand-100 reveal-on-scroll">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-brand-200/50">
-                    <h3 class="font-serif text-3xl font-black text-brand-500 mb-4">The Bloat Trap</h3>
-                    <p class="text-gray-600 leading-relaxed">Most probiotics fail because they use cheap strains that die in your stomach. Bioma® uses <b>Bypass Technology</b> to reach your core.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-8">
+                    <div class="text-gold-500 text-5xl font-black mb-4">01</div>
+                    <h3 class="font-serif text-2xl font-black text-brand-800 mb-2">Bypass Tech</h3>
+                    <p class="text-gray-500 text-sm">Most probiotics die in stomach acid. We ensure survival to the core.</p>
                 </div>
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-brand-200/50">
-                    <h3 class="font-serif text-3xl font-black text-brand-500 mb-4">Stuck Weight</h3>
-                    <p class="text-gray-600 leading-relaxed">When your microbiome is out of sync, your body stores everything. We help flip the <b>metabolic switch</b> back to energy production.</p>
+                <div class="p-8">
+                    <div class="text-gold-500 text-5xl font-black mb-4">02</div>
+                    <h3 class="font-serif text-2xl font-black text-brand-800 mb-2">Meta-Sync</h3>
+                    <p class="text-gray-500 text-sm">Aligns your gut bacteria with your energy-burning centers.</p>
                 </div>
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-brand-200/50">
-                    <h3 class="font-serif text-3xl font-black text-brand-500 mb-4">Brain Fog</h3>
-                    <p class="text-gray-600 leading-relaxed">The gut-brain axis is real. A toxic gut leads to a tired mind. Experience <b>razor-sharp focus</b> within weeks.</p>
+                <div class="p-8">
+                    <div class="text-gold-500 text-5xl font-black mb-4">03</div>
+                    <h3 class="font-serif text-2xl font-black text-brand-800 mb-2">3-in-1 Base</h3>
+                    <p class="text-gray-500 text-sm">Prebiotics, Probiotics, and Postbiotics in one clinical dose.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION: THE OFFER (OFERTA IRRECUSÁVEL) -->
+    <!-- SECTION: BUNDLES (OFFER) -->
     <section id="offer" class="py-24 bg-brand-50 reveal-on-scroll">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="font-serif text-4xl md:text-6xl font-black text-brand-500 mb-4">Select Your Transformation</h2>
-                <p class="text-gray-500 font-bold uppercase tracking-widest text-sm">60-Day Ironclad Satisfaction Guarantee</p>
+                <h2 class="font-serif text-4xl md:text-6xl font-black text-brand-500 mb-4">Transformation Packages</h2>
+                <p class="text-gray-400 font-bold uppercase tracking-[0.2em] text-[10px]">Secure Your Discounted Rate Below</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
-                <!-- Package 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
+                <!-- 1 Bottle -->
                 <div class="bg-white border-2 border-brand-100 p-8 rounded-[2.5rem] flex flex-col justify-between hover:shadow-xl transition-all">
                     <div class="text-center">
-                        <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Starter Kit</span>
+                        <span class="text-[10px] font-black text-gray-400 uppercase tracking-widest">30-Day Protocol</span>
                         <h4 class="text-2xl font-black mt-2">1 Bottle</h4>
                         <div class="my-6">
-                            <span class="text-4xl font-black">$59</span><span class="text-gray-400 font-bold">/bottle</span>
+                            <span class="text-4xl font-black text-brand-800">$59</span><span class="text-gray-400 font-bold text-sm"> /per</span>
                         </div>
                     </div>
-                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="w-full py-4 bg-brand-100 text-brand-800 rounded-xl font-black text-center uppercase tracking-tighter">Order Today</a>
+                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="w-full py-4 bg-brand-100 text-brand-800 rounded-xl font-bold text-center uppercase text-xs tracking-widest hover:bg-brand-200">Order Basic</a>
                 </div>
 
-                <!-- Package 2 - MOST POPULAR -->
-                <div class="bg-brand-500 border-4 border-gold-500 p-8 rounded-[2.5rem] flex flex-col justify-between shadow-2xl relative transform scale-105">
-                    <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-gold-500 text-brand-950 px-6 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">Best Results</div>
+                <!-- 6 Bottles (Best Deal) -->
+                <div class="bg-brand-500 border-4 border-gold-500 p-10 rounded-[2.5rem] flex flex-col justify-between shadow-2xl relative transform md:scale-110 z-10">
+                    <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-gold-500 text-brand-950 px-6 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">Recommended</div>
                     <div class="text-center text-white">
-                        <span class="text-xs font-bold text-gold-400 uppercase tracking-widest">Metabolic Reset Pack</span>
+                        <span class="text-[10px] font-black text-gold-400 uppercase tracking-widest">Complete Metabolism Reset</span>
                         <h4 class="text-3xl font-black mt-2">6 Bottles</h4>
-                        <div class="my-6">
-                            <span class="text-5xl font-black text-gold-500">$39</span><span class="text-gold-400 font-bold">/bottle</span>
+                        <div class="my-8">
+                            <span class="text-6xl font-black text-gold-500">$39</span><span class="text-gold-400 font-bold text-lg"> /per</span>
                         </div>
-                        <p class="text-white/60 text-xs mb-8">Save Over $120 + Free Shipping</p>
+                        <p class="text-white/40 text-[10px] mb-8 font-bold uppercase tracking-widest">Saves Over $120 + Free Shipping</p>
                     </div>
-                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="btn-shine w-full py-5 bg-gold-500 text-brand-950 rounded-xl font-black text-center uppercase tracking-tighter shadow-lg">Claim This Offer</a>
+                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="btn-shine w-full py-5 bg-gold-500 text-brand-950 rounded-2xl font-black text-center uppercase tracking-widest shadow-lg">Claim Max Discount</a>
                 </div>
 
-                <!-- Package 3 -->
+                <!-- 3 Bottles -->
                 <div class="bg-white border-2 border-brand-100 p-8 rounded-[2.5rem] flex flex-col justify-between hover:shadow-xl transition-all">
                     <div class="text-center">
-                        <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Most Practical</span>
+                        <span class="text-[10px] font-black text-gray-400 uppercase tracking-widest">90-Day Protocol</span>
                         <h4 class="text-2xl font-black mt-2">3 Bottles</h4>
                         <div class="my-6">
-                            <span class="text-4xl font-black">$47</span><span class="text-gray-400 font-bold">/bottle</span>
+                            <span class="text-4xl font-black text-brand-800">$47</span><span class="text-gray-400 font-bold text-sm"> /per</span>
                         </div>
                     </div>
-                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="w-full py-4 bg-brand-100 text-brand-800 rounded-xl font-black text-center uppercase tracking-tighter">Order Today</a>
+                    <a href="https://www.knownwalk.com/2JCZKZ1X/W7KP6BZ/" class="w-full py-4 bg-brand-100 text-brand-800 rounded-xl font-bold text-center uppercase text-xs tracking-widest hover:bg-brand-200">Order Standard</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER COM COMPLIANCE -->
+    <!-- FOOTER & COMPLIANCE -->
     <footer class="bg-brand-900 text-white pt-24 pb-12">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
-                <div class="max-w-md">
+                <div class="max-w-sm">
                     <h4 class="font-serif text-3xl font-black mb-6">BIOMA<span class="text-gold-500">®</span></h4>
-                    <p class="text-white/50 text-sm leading-relaxed">Dedicated to the science of precision microbiome optimization. We empower thousands of Americans daily to reclaim their metabolic health through clinical-grade supplementation.</p>
+                    <p class="text-white/40 text-sm leading-relaxed font-medium">Leading the science of precision gut-metabolism synchronization. We provide the tools; you provide the consistency.</p>
                 </div>
                 <div class="flex gap-16">
                     <div>
-                        <h5 class="text-[10px] font-black uppercase tracking-[0.2em] text-gold-500 mb-6">Explore</h5>
-                        <ul class="space-y-4 text-xs font-bold text-white/40">
-                            <li><button onclick="openModal('modal-references')" class="hover:text-white transition-colors">SCIENCE DATA</button></li>
-                            <li><button onclick="openModal('modal-help')" class="hover:text-white transition-colors">HELP CENTER</button></li>
+                        <h5 class="text-[10px] font-black uppercase tracking-[0.2em] text-gold-500 mb-6">Science</h5>
+                        <ul class="space-y-4 text-xs font-bold text-white/30">
+                            <li><button onclick="openModal('modal-references')" class="hover:text-white transition-colors">RESEARCH DATA</button></li>
+                            <li><button onclick="openModal('modal-help')" class="hover:text-white transition-colors">SUPPORT</button></li>
                         </ul>
                     </div>
                     <div>
-                        <h5 class="text-[10px] font-black uppercase tracking-[0.2em] text-gold-500 mb-6">Legal</h5>
-                        <ul class="space-y-4 text-xs font-bold text-white/40">
-                            <li><button onclick="openModal('modal-privacy')" class="hover:text-white transition-colors">PRIVACY FRAMEWORK</button></li>
-                            <li><button onclick="openModal('modal-terms')" class="hover:text-white transition-colors">TERMS OF SERVICE</button></li>
+                        <h5 class="text-[10px] font-black uppercase tracking-[0.2em] text-gold-500 mb-6">Policy</h5>
+                        <ul class="space-y-4 text-xs font-bold text-white/30">
+                            <li><button onclick="openModal('modal-privacy')" class="hover:text-white transition-colors">PRIVACY</button></li>
+                            <li><button onclick="openModal('modal-terms')" class="hover:text-white transition-colors">TERMS</button></li>
                         </ul>
                     </div>
                 </div>
@@ -243,11 +263,11 @@
             
             <div class="pt-10 border-t border-white/5 text-center">
                 <div class="max-w-4xl mx-auto space-y-6">
-                    <p class="text-[10px] text-white/30 leading-relaxed uppercase tracking-widest font-bold">Official 2026 Compliance Disclosure</p>
-                    <p class="text-[10px] text-white/20 leading-relaxed">
-                        These statements have not been evaluated by the Food and Drug Administration. This product is intended to support metabolic markers and microbiome health. It is not intended to diagnose, treat, cure, or prevent any medical condition. Individual metabolic responses may vary. This platform is an independent distribution site providing authentic products from Bioma Health.
+                    <p class="text-[10px] text-white/30 leading-relaxed uppercase tracking-widest font-bold">Official 2026 Medical Disclaimer</p>
+                    <p class="text-[10px] text-white/20 leading-relaxed font-medium">
+                        These statements have not been evaluated by the Food and Drug Administration. This product is a dietary supplement and is not intended to diagnose, treat, cure, or prevent any disease. Results are based on individual metabolic profiles and consistent usage within the 3-month protocol. This site serves as an independent authorized distributor platform.
                     </p>
-                    <p class="text-[10px] text-white/10 mt-8">&copy; 2026 BIOMA HEALTH SYSTEMS. ALL RIGHTS RESERVED.</p>
+                    <p class="text-[10px] text-white/10 mt-8 font-bold">&copy; 2026 BIOMA HEALTH SYSTEMS. GLOBAL DISTRIBUTION.</p>
                 </div>
             </div>
         </div>
@@ -255,16 +275,16 @@
 
     <!-- MODAL SYSTEM -->
     <div id="modal-overlay" class="fixed inset-0 bg-brand-950/95 backdrop-blur-xl z-[200] hidden flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
-        <div id="modal-container" class="bg-white rounded-[2rem] w-full max-w-xl max-h-[85vh] overflow-y-auto shadow-2xl transform scale-95 transition-all duration-300 relative border border-brand-100">
-            <button onclick="closeModal()" class="absolute top-6 right-6 p-2 text-brand-950/40 hover:text-brand-950">
+        <div id="modal-container" class="bg-white rounded-[2rem] w-full max-w-xl max-h-[85vh] overflow-y-auto shadow-2xl transform scale-95 transition-all duration-300 relative">
+            <button onclick="closeModal()" class="absolute top-6 right-6 p-2 text-brand-950/20 hover:text-brand-950">
                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M6 18L18 6M6 6l12 12"/></svg>
             </button>
-            <div id="modal-content-area" class="p-10 md:p-14 text-brand-800 text-sm leading-relaxed font-medium"></div>
+            <div id="modal-content-area" class="p-10 md:p-14 text-brand-800 text-sm leading-relaxed"></div>
         </div>
     </div>
 
     <script>
-        // Scroll Reveal
+        // Scroll Reveal Logic
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('active'); });
         }, { threshold: 0.1 });
@@ -272,32 +292,10 @@
 
         // Modal Content
         const modalData = {
-            'modal-privacy': `
-                <h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Privacy Framework</h3>
-                <p class="mb-4">Your digital health sovereignty is our priority. We employ military-grade 256-bit SSL encryption for all data transit.</p>
-                <p>We do not share your purchasing habits or biological data with external marketing brokers.</p>
-            `,
-            'modal-terms': `
-                <h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Terms of Service</h3>
-                <p class="mb-4">By engaging with this protocol, you acknowledge that Bioma® is a nutritional optimization tool.</p>
-                <p>Purchases made through this platform are protected by our satisfaction guarantee. Please consult a health professional for specific medical advice.</p>
-            `,
-            'modal-references': `
-                <h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Metabolic Research</h3>
-                <div class="space-y-4">
-                    <div class="p-6 bg-brand-100 rounded-2xl">
-                        <p class="font-bold text-brand-500">Bio-Marker Transference Study</p>
-                        <p class="text-xs text-brand-800/60 mt-1">Study 2025-V2. 92% of users reported reduction in digestive bloating within 14 days of the 3-in-1 Bioma protocol.</p>
-                    </div>
-                </div>
-            `,
-            'modal-help': `
-                <h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Help Center</h3>
-                <div class="p-8 bg-gold-500/10 rounded-3xl border-2 border-gold-500/20">
-                    <p class="text-brand-900 font-bold mb-2">Dedicated Order Support:</p>
-                    <p class="text-2xl font-black text-brand-500">support@getbioma.com</p>
-                </div>
-            `
+            'modal-privacy': `<h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Privacy Policy</h3><p>We use industry-standard encryption to protect your data. We do not sell user health data to third-party brokers.</p>`,
+            'modal-terms': `<h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Terms</h3><p>By using this site, you agree to the independent distributor terms and our 60-day satisfaction policy.</p>`,
+            'modal-references': `<h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Clinical Data</h3><div class="p-6 bg-brand-50 rounded-2xl"><p class="text-xs">Based on clinical trials of Bifidobacterium strains for intestinal barrier support. Results observed in 90% of subjects over 12 weeks.</p></div>`,
+            'modal-help': `<h3 class="text-3xl font-serif font-black text-brand-500 mb-6">Support</h3><p class="font-bold">Contact our US-based team at:</p><p class="text-xl font-black text-brand-500">support@getbioma.com</p>`
         };
 
         const overlay = document.getElementById('modal-overlay');
