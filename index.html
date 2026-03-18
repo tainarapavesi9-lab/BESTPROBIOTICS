@@ -86,7 +86,6 @@
         .reveal-on-scroll { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
         .reveal-on-scroll.active { opacity: 1; transform: translateY(0); }
         
-        /* STRONG BACKGROUND IMAGE */
         .hero-bg-custom {
             background-image: linear-gradient(to bottom, rgba(253, 252, 248, 0.4), rgba(253, 252, 248, 0.1)), url('images/bioma-fundo.png');
             background-size: cover;
@@ -102,16 +101,18 @@
 
 <body class="font-sans noise-bg">
 
-    <!-- URGENCY TOP BAR -->
-    <div class="bg-brand-950 text-white py-2.5 px-4 shadow-md relative z-[110] text-center border-b border-brand-800">
-        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs sm:text-sm font-bold tracking-wide uppercase">
-            <span class="bg-accent-500 text-brand-950 px-2.5 py-0.5 rounded-full text-[10px] sm:text-xs animate-pulse">2026 PROTOCOL UPDATE</span>
-            <div class="flex items-center space-x-2">
-                <svg class="w-4 h-4 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
-                <span>Free Expedited Shipping Included</span>
+    <!-- URGENCY TOP BAR (REFINED 1-LINE MOBILE) -->
+    <div class="bg-brand-950 text-white py-2.5 px-2 shadow-md relative z-[110] text-center border-b border-brand-800 overflow-hidden">
+        <div class="max-w-7xl mx-auto flex items-center justify-center gap-x-3 sm:gap-x-6 text-[9px] xs:text-[10px] sm:text-sm font-bold tracking-tight sm:tracking-wide uppercase whitespace-nowrap">
+            <div class="flex items-center space-x-1.5">
+                <svg class="w-3 h-3 sm:w-4 sm:h-4 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
+                <span>Free Expedited Shipping</span>
             </div>
-            <div class="hidden sm:block w-px h-3 bg-brand-800"></div>
-            <span>60-Day Satisfaction Guarantee</span>
+            <div class="w-px h-3 bg-brand-800 shrink-0"></div>
+            <div class="flex items-center space-x-1.5">
+                <svg class="w-3 h-3 sm:w-4 sm:h-4 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                <span>60-Day Money Back Guarantee</span>
+            </div>
         </div>
     </div>
 
@@ -126,7 +127,6 @@
                 <a href="#results" class="hover:text-accent-500 transition-colors">Real Reviews</a>
                 <a href="#faq" class="hover:text-accent-500 transition-colors">Science FAQ</a>
             </div>
-            <!-- LINK DTC -->
             <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="bg-brand-500 text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-brand-800 transition-all shadow-lg">
                 Order Now
             </a>
@@ -150,14 +150,14 @@
                         <strong>Bioma®</strong> is a precision-engineered probiotic reset. Stop treating symptoms and start targeting the root cause of slow metabolic performance.
                     </p>
 
-                    <!-- MOBILE HIERARCHY: IMAGE AFTER TITLE & BEFORE CTA (biomaprob.webp) -->
+                    <!-- MOBILE HIERARCHY: IMAGE AFTER TITLE & BEFORE CTA -->
                     <div class="lg:hidden mt-8 mb-6 relative w-full opacity-0 animate-fade-in-up" style="animation-delay: 150ms">
                         <div class="flex items-center justify-center drop-shadow-[0_25px_60px_rgba(30,77,59,0.3)]">
                             <img src="images/biomaprob.webp" alt="Bioma Probiotic" class="object-contain w-full max-h-[300px] h-auto">
                         </div>
                     </div>
 
-                    <!-- HERO CTA -> DTC LINK -->
+                    <!-- HERO CTA -->
                     <div class="mt-6 opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
                         <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 text-xl font-black text-white authority-gradient rounded-full shadow-2xl hover:scale-105 transition-all duration-300 cta-pulse uppercase tracking-tight">
                             Identify My Blocks
@@ -221,7 +221,6 @@
                         <h3 class="text-3xl font-display font-extrabold mb-4 tracking-tight">Direct Order</h3>
                         <p class="text-brand-100/90 text-lg leading-relaxed mb-10">Secure Bioma’s clinically-designed 3-in-1 formula immediately and bypass the analysis. Optimized for action.</p>
                     </div>
-                    <!-- DTC LINK -->
                     <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="w-full py-5 bg-white text-brand-950 rounded-2xl font-black text-center uppercase tracking-tighter hover:bg-accent-500 transition-colors shadow-lg">Order Now 35% Off</a>
                 </div>
 
@@ -235,7 +234,6 @@
                         <h3 class="text-3xl font-display font-extrabold text-brand-950 mb-4 tracking-tight">Identify Your Type</h3>
                         <p class="text-gray-600 text-lg leading-relaxed mb-10">Don't guess. Take our 30-second assessment to discover your specific digestive profile and metabolic blocks.</p>
                     </div>
-                    <!-- QUIZ LINK -->
                     <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/?uid=29074" class="w-full py-5 authority-gradient text-white rounded-2xl font-black text-center uppercase tracking-tighter shadow-lg transform hover:scale-[1.02] transition-all">Start Quiz</a>
                 </div>
             </div>
