@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- NOVO SCRIPT DE RASTREAMENTO -->
+    <!-- TRACKING SCRIPT -->
     <script src="https://api.ornyxa.com/code/8300-7da3fa39-f7a7-4251-97bb-a3d9c9e547fa"></script>
 
     <!-- STRATEGIC SEO & METATAGS (US & CA 2026) -->
@@ -19,8 +19,8 @@
     <!-- SEO CANONICAL URL -->
     <link rel="canonical" href="https://bestprobiotics.vercel.app/">
 
-    <!-- FAVICON (Mesma foto da Logo) -->
-    <link rel="icon" type="image/png" href="images/bioma-logo.png">
+    <!-- FAVICON (Foto da Logo SVG) -->
+    <link rel="icon" type="image/svg+xml" href="images/bioma-logo.svg">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -33,14 +33,14 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://bestprobiotics.vercel.app/">
     <meta property="twitter:title" content="Bioma® | US & CA Precision Support">
-    <meta property="twitter:image" content="images/biomaprob.png">
+    <meta property="twitter:image" content="images/biomaprob.webp">
 
-    <!-- Fontes Premium -->
+    <!-- Premium Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Tailwind CSS (Paleta Emerald & Gold) -->
+    <!-- Tailwind CSS (Palette Emerald & Gold) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -92,9 +92,9 @@
         .reveal-on-scroll { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
         .reveal-on-scroll.active { opacity: 1; transform: translateY(0); }
         
-        /* Fundo da primeira sessão - Imagem Forte */
+        /* Fundo da primeira sessão - Alta Visibilidade */
         .hero-bg-custom {
-            background-image: linear-gradient(to right, rgba(253, 252, 248, 0.5), rgba(253, 252, 248, 0.2)), url('images/bioma-fundo.png');
+            background-image: linear-gradient(to right, rgba(253, 252, 248, 0.4), rgba(253, 252, 248, 0.1)), url('images/bioma-fundo.png');
             background-size: cover;
             background-position: center;
         }
@@ -121,33 +121,33 @@
         </div>
     </div>
 
-    <!-- STICKY HEADER -->
-    <nav class="sticky top-0 glass-header py-3 z-[100] border-b border-brand-100/50">
+    <!-- CABEÇALHO (LOGO SVG & BOTÃO DTC) -->
+    <nav class="sticky top-0 glass-header py-4 z-[100] border-b border-brand-100/50">
         <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
             <a href="/" class="flex items-center">
-                <!-- LOGO EM FOTO -->
-                <img src="images/bioma-logo.png" alt="Bioma Official Logo" class="h-10 sm:h-12 w-auto object-contain">
+                <!-- LOGO SVG SOLICITADA -->
+                <img src="images/bioma-logo.svg" alt="Bioma Official Logo" class="h-10 sm:h-12 w-auto object-contain">
             </a>
             <div class="hidden md:flex space-x-8 text-xs font-bold text-brand-900 uppercase tracking-widest">
                 <a href="#formula" class="hover:text-accent-500 transition-colors">Mechanism</a>
-                <a href="#results" class="hover:text-accent-500 transition-colors">Case Studies</a>
-                <a href="#faq" class="hover:text-accent-500 transition-colors">Support</a>
+                <a href="#results" class="hover:text-accent-500 transition-colors">Real Results</a>
+                <a href="#faq" class="hover:text-accent-500 transition-colors">FAQ</a>
             </div>
             <!-- LINK CABEÇALHO -> DTC -->
-            <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="bg-brand-500 text-white px-8 py-2.5 rounded-full text-[11px] font-bold uppercase tracking-widest hover:bg-brand-800 transition-all shadow-lg">
+            <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="bg-brand-500 text-white px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-brand-800 transition-all shadow-lg">
                 Shop Now
             </a>
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
+    <!-- PRIMEIRA SESSÃO (HERO) -->
     <section class="relative pt-12 pb-20 lg:pt-32 lg:pb-32 overflow-hidden hero-bg-custom">
         <div class="glow-blob top-0 right-0 -translate-y-1/2 translate-x-1/4 animate-pulse-slow"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                 
-                <div class="text-center lg:text-left flex flex-col">
+                <div class="text-center lg:text-left flex flex-col order-1 lg:order-none">
                     <h1 class="font-display text-4xl sm:text-5xl lg:text-7xl font-extrabold text-brand-950 leading-tight tracking-tight opacity-0 animate-fade-in-up">
                         Target Your Gut. <br />
                         <span class="text-brand-500">Master Your Metabolism.</span>
@@ -157,19 +157,19 @@
                         <strong>Bioma®</strong> is a precision-engineered probiotic reset. Stop treating symptoms and start targeting the root cause of slow metabolic performance.
                     </p>
 
-                    <!-- MOBILE: PRODUTO APÓS TÍTULO E ANTES DO CTA (biomaprob.png) -->
-                    <div class="lg:hidden mt-8 mb-6 relative w-full opacity-0 animate-fade-in-up" style="animation-delay: 150ms">
+                    <!-- MOBILE: PRODUTO APÓS TÍTULO E ANTES DO CTA (biomaprob.webp) -->
+                    <div class="lg:hidden mt-10 mb-8 relative w-full opacity-0 animate-fade-in-up" style="animation-delay: 150ms">
                         <div class="flex items-center justify-center drop-shadow-[0_20px_50px_rgba(30,77,59,0.3)]">
-                            <img src="images/biomaprob.png" alt="Bioma Probiotic" class="object-contain w-full max-h-[320px] h-auto">
+                            <img src="images/biomaprob.webp" alt="Bioma Probiotic Bottle" class="object-contain w-full max-h-[300px] h-auto">
                         </div>
                     </div>
 
                     <!-- BOTÃO HERO -> DTC -->
-                    <div class="mt-4 lg:mt-8 opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
-                        <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 text-xl font-black text-white authority-gradient rounded-full shadow-2xl hover:scale-105 transition-all duration-300 cta-pulse uppercase">
+                    <div class="mt-6 opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
+                        <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 text-xl font-black text-white authority-gradient rounded-full shadow-2xl hover:scale-105 transition-all duration-300 cta-pulse uppercase tracking-tight">
                             Order Now 35% Off
                         </a>
-                        <p class="mt-4 text-[10px] text-brand-800 font-bold uppercase tracking-widest text-center lg:text-left opacity-70">Authorized Independent Distributor • US & CA</p>
+                        <p class="mt-4 text-[10px] text-brand-800 font-bold uppercase tracking-widest text-center lg:text-left opacity-80 italic">Authorized Independent Distributor • US & CA Market</p>
                     </div>
 
                     <ul class="mt-10 space-y-4 opacity-0 animate-fade-in-up hidden lg:block" style="animation-delay: 250ms">
@@ -184,10 +184,10 @@
                     </ul>
                 </div>
 
-                <!-- DESKTOP: FOTO DO PRODUTO (biomaprob.png) -->
+                <!-- DESKTOP: FOTO DO PRODUTO (biomaprob.webp) -->
                 <div class="hidden lg:block relative w-full opacity-0 animate-fade-in-up" style="animation-delay: 200ms">
                     <div class="flex items-center justify-center drop-shadow-[0_50px_100px_rgba(30,77,59,0.2)] animate-float">
-                        <img src="images/biomaprob.png" alt="Bioma Supplement" class="object-contain w-full h-auto max-h-[600px]">
+                        <img src="images/biomaprob.webp" alt="Bioma Supplement" class="object-contain w-full h-auto max-h-[600px]">
                     </div>
                 </div>
 
@@ -195,7 +195,7 @@
         </div>
     </section>
 
-    <!-- TRUST BADGES -->
+    <!-- SOCIAL PROOF -->
     <div class="bg-white py-14 border-y border-brand-100">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <p class="text-[10px] font-bold text-brand-900/40 uppercase tracking-[0.4em] mb-10">Endorsed by Top Clinical Networks in North America</p>
@@ -215,19 +215,19 @@
                 <h2 class="font-display text-4xl sm:text-6xl font-extrabold text-brand-950 tracking-tight">
                     Start Your Reset
                 </h2>
-                <p class="mt-6 text-xl text-gray-600">Secure your supply directly or start with a profile analysis.</p>
+                <p class="mt-6 text-xl text-gray-600">Choose the path that fits your current metabolic profile.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
                 <!-- CARD 1: DTC -->
                 <div class="group bg-brand-800 text-white rounded-[3.5rem] p-10 md:p-14 border-4 border-brand-950/20 hover:border-accent-500 transition-all duration-500 hover:shadow-2xl flex flex-col justify-between relative overflow-hidden">
-                    <div class="absolute top-6 right-8"><span class="bg-accent-500 text-brand-950 text-[10px] font-black px-4 py-2 rounded-full uppercase tracking-widest">35% OFF TODAY</span></div>
+                    <div class="absolute top-6 right-8"><span class="bg-accent-500 text-brand-950 text-[10px] font-black px-4 py-2 rounded-full uppercase tracking-widest">SAVE 35% TODAY</span></div>
                     <div>
                         <div class="w-16 h-16 bg-white/10 backdrop-blur-md rounded-2xl flex items-center justify-center mb-8 border border-white/20">
                             <svg class="w-10 h-10 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                         </div>
-                        <h3 class="text-3xl font-display font-extrabold mb-4 tracking-tight">Direct Purchase</h3>
-                        <p class="text-brand-100/90 text-lg leading-relaxed mb-10">Already ready? Secure Bioma’s clinically-designed 3-in-1 formula immediately and lock in your savings.</p>
+                        <h3 class="text-3xl font-display font-extrabold mb-4 tracking-tight">Direct Order</h3>
+                        <p class="text-brand-100/90 text-lg leading-relaxed mb-10">Secure Bioma’s clinically-designed 3-in-1 formula immediately and bypass the analysis. Optimized for instant action.</p>
                     </div>
                     <!-- LINK DTC -->
                     <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/" class="w-full py-5 bg-white text-brand-950 rounded-2xl font-black text-center uppercase tracking-tighter hover:bg-accent-500 transition-colors shadow-lg">Order Now 35% Off</a>
@@ -235,13 +235,13 @@
 
                 <!-- CARD 2: QUIZ -->
                 <div class="group bg-white rounded-[3.5rem] p-10 md:p-14 border border-brand-100 hover:border-brand-500 transition-all duration-500 hover:shadow-2xl flex flex-col justify-between relative">
-                    <div class="absolute top-6 right-8"><span class="bg-brand-950 text-white text-[10px] font-black px-4 py-2 rounded-full uppercase tracking-widest">PERSONALIZED</span></div>
+                    <div class="absolute top-6 right-8"><span class="bg-brand-950 text-white text-[10px] font-black px-4 py-2 rounded-full uppercase tracking-widest">PRECISION QUIZ</span></div>
                     <div>
                         <div class="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center mb-8 border border-brand-100 shadow-sm">
                             <svg class="w-8 h-8 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /></svg>
                         </div>
-                        <h3 class="text-3xl font-display font-extrabold text-brand-950 mb-4 tracking-tight">Gut Analysis</h3>
-                        <p class="text-gray-600 text-lg leading-relaxed mb-10">Take our 30-second assessment to discover your specific digestive profile and metabolic blocks.</p>
+                        <h3 class="text-3xl font-display font-extrabold text-brand-950 mb-4 tracking-tight">Identify Your Type</h3>
+                        <p class="text-gray-600 text-lg leading-relaxed mb-10">Take our 30-second assessment to discover your specific digestive profile and find your metabolic blocks.</p>
                     </div>
                     <!-- LINK QUIZ -->
                     <a href="https://www.fasttrack37.com/PM7HK3TH/2FD4XB84/?uid=29074" class="w-full py-5 authority-gradient text-white rounded-2xl font-black text-center uppercase tracking-tighter shadow-lg transform hover:scale-[1.02] transition-all">Start Quiz</a>
@@ -258,7 +258,7 @@
                 <p class="mt-6 text-brand-200 text-xl font-medium italic">Verified results across US & Canada.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
+                <!-- Testemunho -->
                 <div class="bg-brand-900/50 p-10 rounded-[2.5rem] border border-brand-800 hover:border-accent-500 transition-all">
                     <div class="flex text-accent-500 mb-6 space-x-1">
                         <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -276,7 +276,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- ... other reviews remain the same structure ... -->
             </div>
         </div>
     </section>
@@ -292,7 +291,7 @@
                         <svg class="h-6 w-6 transition-transform group-open:rotate-180 text-accent-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                     </summary>
                     <div class="p-7 pt-0 text-brand-100 leading-relaxed border-t border-brand-800/50 mt-1">
-                        Generic probiotics often fail to survive stomach acid. Bioma® utilizes a clinical-grade multi-stage delivery system (Pre, Pro, and Post-biotics) that ensures active strains reach your metabolic core.
+                        Generic probiotics often die in stomach acid. Bioma® utilizes a clinical-grade multi-stage delivery system (Pre, Pro, and Post-biotics) that ensures active strains reach your metabolic core.
                     </div>
                 </details>
             </div>
@@ -309,14 +308,14 @@
                 </div>
                 <div>
                     <h4 class="font-bold text-lg text-brand-950 mb-5">Quick Support</h4>
-                    <ul class="space-y-3 text-sm font-bold text-gray-500 uppercase tracking-tighter">
+                    <ul class="space-y-3 text-sm font-bold text-gray-400 uppercase tracking-tighter">
                         <li><a href="#faq" class="hover:text-brand-600 transition-colors">Help Center</a></li>
                         <li><button onclick="openModal('modal-references')" class="hover:text-brand-600 transition-colors">Scientific References</button></li>
                         <li><button onclick="openModal('modal-help')" class="hover:text-brand-600 transition-colors">Order Status</button></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-bold text-lg text-brand-950 mb-5">Digital Framework</h4>
+                    <h4 class="font-bold text-lg text-brand-950 mb-5">Digital Rights</h4>
                     <ul class="space-y-3 text-sm font-bold text-gray-400 uppercase tracking-tighter">
                         <li><button onclick="openModal('modal-privacy')" class="hover:text-brand-600 transition-colors">Privacy Framework</button></li>
                         <li><button onclick="openModal('modal-terms')" class="hover:text-brand-600 transition-colors">Terms of Use</button></li>
